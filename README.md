@@ -44,17 +44,17 @@ docker build -t pdf-outline-solution:latest .
 ### Step 3: Run the container
 
 ```bash
-docker run --rm \
-  -v ${PWD}/input:/app/input \
-  -v ${PWD}/output:/app/output \
-  --network none \
+docker run --rm `
+  -v ${PWD}/input:/app/input `
+  -v ${PWD}/output:/app/output `
+  --network none `
   pdf-outline-solution:latest
 ```
 
 ## 🔧 Usage
 
 1. Place your PDF files in the `input/` folder
-2. Run the Docker container using Step 3 command
+2. Run the Docker using Step 2 and Step 3 commands
 3. Check the `output/` folder for generated JSON files
 4. Each PDF will have a corresponding JSON file with the same name
 
