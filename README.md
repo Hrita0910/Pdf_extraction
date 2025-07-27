@@ -26,12 +26,12 @@ Task_1A/
 - Docker Desktop installed and running
 - Git (for pushing to GitHub)
 
-## Setup Instructions (step-by-step)
+## 📋 Setup Instructions (step-by-step)
 
 ### Step 1: Clone or open the project
 
 ```bash
-git clone https://github.com/your-username/Task_1A.git
+git clone https://github.com/Hrita0910/Pdf_extraction.git
 cd Task_1A
 ```
 
