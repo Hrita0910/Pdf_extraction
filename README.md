@@ -53,7 +53,7 @@ docker run --rm `
 
 ## 🔧 Usage
 
-1. Place your PDF files in the `input/` folder
+1. Place your PDF files in the `input/` folder 
 2. Run the Docker using Step 2 and Step 3 commands
 3. Check the `output/` folder for generated JSON files
 4. Each PDF will have a corresponding JSON file with the same name
@@ -64,5 +64,9 @@ docker run --rm `
 - pdfplumber
 - Docker
 - JSON output format
+
+## Note
+
+Some pdfs and .json files are already inside the input and output folder, for testing purposes.
 
 ---
