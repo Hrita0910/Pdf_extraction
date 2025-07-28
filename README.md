@@ -1,4 +1,4 @@
-# PDF Outline Extractor
+# PDF Outline Extractor (Task_1A)
 
 This tool extracts a clean, structured outline from PDF documents, including the **title** and **hierarchical headings (H1, H2, H3)**. It works **offline**, supports **multilingual documents**, and runs inside a lightweight **Docker container**.
 
